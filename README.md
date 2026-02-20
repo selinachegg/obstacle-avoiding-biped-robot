@@ -18,8 +18,7 @@
 
 Built as part of the Robotics module in the Master 1 ESTEL program (2020/2021), this bipedal robot walks autonomously and navigates around obstacles using two Sharp infrared distance sensors and four servo-driven leg joints.
 
-**Authors:** CHEGGOUR Selina, GOUFFI Djamel, MBOCK Therese
-**Advisor:** RIBERO Jean-Marc
+**Author:** CHEGGOUR Selina
 
 The full academic report is available at [`docs/report.pdf`](docs/report.pdf).
 
