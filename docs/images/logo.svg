@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5F8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5BA0E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A7BBF;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="irGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- IR detection cone - left sensor -->
+  <path d="M 145 105 L 80 60 L 80 150 Z" fill="url(#irGlow)" opacity="0.3"/>
+  <!-- IR detection cone - right sensor -->
+  <path d="M 255 105 L 320 60 L 320 150 Z" fill="url(#irGlow)" opacity="0.3"/>
+
+  <!-- Body -->
+  <rect x="150" y="70" width="100" height="80" rx="12" ry="12" fill="url(#bodyGrad)" stroke="#1E3A5F" stroke-width="2"/>
+
+  <!-- Eyes / IR sensors -->
+  <circle cx="175" cy="100" r="12" fill="#1E3A5F"/>
+  <circle cx="225" cy="100" r="12" fill="#1E3A5F"/>
+  <circle cx="175" cy="100" r="7" fill="#FF6B6B"/>
+  <circle cx="225" cy="100" r="7" fill="#FF6B6B"/>
+  <circle cx="177" cy="98" r="2.5" fill="#FFB3B3"/>
+  <circle cx="227" cy="98" r="2.5" fill="#FFB3B3"/>
+
+  <!-- Antenna -->
+  <line x1="200" y1="70" x2="200" y2="48" stroke="#1E3A5F" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="200" cy="44" r="5" fill="#4ADE80"/>
+
+  <!-- Arduino board detail on body -->
+  <rect x="170" y="120" width="60" height="20" rx="3" ry="3" fill="#2ECC71" stroke="#1E3A5F" stroke-width="1"/>
+  <rect x="176" y="124" width="6" height="4" rx="1" fill="#1E3A5F"/>
+  <rect x="186" y="124" width="6" height="4" rx="1" fill="#1E3A5F"/>
+  <rect x="196" y="124" width="6" height="4" rx="1" fill="#1E3A5F"/>
+  <rect x="206" y="124" width="6" height="4" rx="1" fill="#1E3A5F"/>
+  <rect x="216" y="124" width="6" height="4" rx="1" fill="#1E3A5F"/>
+
+  <!-- Left upper leg -->
+  <rect x="155" y="152" width="28" height="45" rx="6" ry="6" fill="url(#legGrad)" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Left knee joint -->
+  <circle cx="169" cy="197" r="8" fill="#3A7BBF" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Left lower leg -->
+  <rect x="155" y="199" width="28" height="45" rx="6" ry="6" fill="url(#legGrad)" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Left foot -->
+  <rect x="145" y="240" width="48" height="14" rx="7" ry="7" fill="#2C5F8A" stroke="#1E3A5F" stroke-width="2"/>
+
+  <!-- Right upper leg -->
+  <rect x="217" y="152" width="28" height="45" rx="6" ry="6" fill="url(#legGrad)" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Right knee joint -->
+  <circle cx="231" cy="197" r="8" fill="#3A7BBF" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Right lower leg -->
+  <rect x="217" y="199" width="28" height="45" rx="6" ry="6" fill="url(#legGrad)" stroke="#1E3A5F" stroke-width="2"/>
+  <!-- Right foot -->
+  <rect x="207" y="240" width="48" height="14" rx="7" ry="7" fill="#2C5F8A" stroke="#1E3A5F" stroke-width="2"/>
+
+  <!-- Obstacle block -->
+  <rect x="40" y="80" width="30" height="50" rx="4" ry="4" fill="#E74C3C" stroke="#C0392B" stroke-width="2" opacity="0.7"/>
+  <text x="55" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">!</text>
+
+  <!-- Obstacle block right -->
+  <rect x="330" y="90" width="25" height="40" rx="4" ry="4" fill="#E74C3C" stroke="#C0392B" stroke-width="2" opacity="0.7"/>
+  <text x="342" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">!</text>
+
+  <!-- Title -->
+  <text x="200" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1E3A5F">Obstacle-Avoiding Biped Robot</text>
+  <text x="200" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5A7FA0">Arduino UNO | Sharp IR | Servo Driven</text>
+</svg>

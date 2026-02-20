@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.hex
+*.elf
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.bak
+*.tmp
+.vscode/
+
+# Claude Code
+CLAUDE.md
