@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>Master 1 ESTEL — Robotics Project — 2020/2021</b>
+  <b>Master 1 ESTEL, Robotics Project, 2020/2021</b>
 </p>
 
 ---
@@ -38,8 +38,8 @@ The robot reads both IR sensors each loop cycle and selects one of four behavior
 | Component | Description |
 |-----------|-------------|
 | Arduino UNO | Microcontroller board |
-| Sensor Shield v5.0 | EasyCard — simplifies servo/sensor wiring |
-| Sharp GP2Y0A21YK0F (x2) | Infrared distance sensors (10–80 cm) |
+| Sensor Shield v5.0 | EasyCard, simplifies servo/sensor wiring |
+| Sharp GP2Y0A21YK0F (x2) | Infrared distance sensors (10 to 80 cm) |
 | Servo motors (x4) | Two per leg (upper joint + lower joint) |
 | Battery 6V 1600mAh | LRP XTEC RX-Pack NiMH |
 | Piezoelectric buzzer | Obstacle alert sound |
@@ -89,8 +89,8 @@ obstacle-avoiding-biped-robot/
 
 ### Dependencies
 
-- **Servo** — built-in Arduino library
-- **SharpIR** — install via the Arduino Library Manager (search "SharpIR")
+- **Servo**: built-in Arduino library
+- **SharpIR**: install via the Arduino Library Manager (search "SharpIR")
 
 ### Arduino IDE
 
@@ -121,7 +121,7 @@ Individual test sketches extracted from the project report. Upload them one at a
 
 ## Documentation
 
-- **[Full Academic Report](docs/report.pdf)** — System design, GRAFCET, component analysis, circuit simulations, and code walkthrough (28 pages, French).
+- **[Full Academic Report](docs/report.pdf)**: System design, GRAFCET, component analysis, circuit simulations, and code walkthrough (28 pages, French).
 
 ## License
 
